@@ -1,23 +1,37 @@
 [
   {
     "id": 0,
-    "remarks": "yu-steven/openi",
-    "site": "https://github.com/yu-steven/openi",
+    "remarks": "test",
+    "site": "https://github.com/666greatChina888/Code-Store",
+    "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/combine.yaml",
+    "enabled": false
+  },
+  {
+    "id": 1,
+    "remarks": "yu-steven/openit",
+    "site": "https://github.com/yu-steven/openit",
     "url": "https://raw.githubusercontent.com/yu-steven/openit/main/sub/nodes.yaml",
     "enabled": true
   },
   {
     "id": 2,
-    "remarks": "changfengoss",
-    "site": "https://github.com/666greatChina888/Code-Store",
-    "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/changfengoss.yaml",
-    "enabled": false
+    "remarks": "Jsnzkpg/Jsnzkpg",
+    "site": "https://github.com/Jsnzkpg/Jsnzkpg",
+    "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
+    "enabled": true
   },
   {
     "id": 3,
-    "remarks": "test",
+    "remarks": "chfchf0306/clash",
+    "site": "https://github.com/chfchf0306/clash",
+    "url": "https://raw.githubusercontent.com/chfchf0306/clash/main/clash",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "remarks": "changfengoss",
     "site": "https://github.com/666greatChina888/Code-Store",
-    "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/combine.yaml",
+    "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/changfengoss.yaml",
     "enabled": false
   }
 ]
