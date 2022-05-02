@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "remarks": "yu-steven/openi",
+    "site": "https://github.com/yu-steven/openi",
+    "url": "https://raw.githubusercontent.com/yu-steven/openit/main/sub/nodes.yaml",
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "remarks": "changfengoss",
+    "site": "https://github.com/666greatChina888/Code-Store",
+    "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/changfengoss.yaml",
+    "enabled": false
+  },
+  {
+    "id": 3,
+    "remarks": "test",
+    "site": "https://github.com/666greatChina888/Code-Store",
+    "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/combine.yaml",
+    "enabled": false
+  }
+]

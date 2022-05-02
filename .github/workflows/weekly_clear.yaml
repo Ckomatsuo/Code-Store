@@ -1,0 +1,40 @@
+name: weekly_clear
+
+# 触发条件
+on:
+  # push的时候触发
+  # push:
+  #   branches: master
+  workflow_dispatch:
+  # 定时触发
+  schedule:
+    # - cron: '*/5 * * * *'
+    # 表达式生成  https://crontab.guru/
+    # 此处是UTC时间 即北京时间 -8小时
+    - cron: "20 5 * * 1"
+
+jobs:
+  clear:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: 设置github信息
+        env:
+          email: ${{ secrets.EMAIL }}
+          username: ${{ secrets.USERNAME }}
+        run: |
+          git config --global user.name "$username"
+          git config --global user.email "$email"
+      - name: clear commit
+        run: |
+          git checkout --orphan new_branch
+          git commit -m "Initialize Repository"
+          git branch -D master
+          git branch -m master
+          git push -f origin master
+      - name: 删除过多的workflows
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 1
