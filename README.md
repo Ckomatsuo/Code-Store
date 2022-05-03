@@ -41,7 +41,7 @@
 ### 节点来源
 - [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish/), 节点数量: `39`
 - [lcx12901/v2ray-](https://github.com/lcx12901/v2ray-), 节点数量: `524`
-- [手动收集](https://gitlab.com/), 节点数量: `0`
+- [手动收集](https://github.com/666greatChina888/Code-Store), 节点数量: `0`
 
 ## 仓库声明
 订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
