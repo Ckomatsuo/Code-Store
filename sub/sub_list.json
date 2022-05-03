@@ -6,14 +6,14 @@
     "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/combine.yaml",
     "enabled": false
   },
-	{
+  {
     "id": 1,
     "remarks": "GreenFishStudio/GreenFish",
     "site": "https://github.com/GreenFishStudio/GreenFish/",
     "url": "https://raw.githubusercontent.com/GreenFishStudio/GreenFish/master/Subscription/Clash/GreenFishYYDS",
     "enabled": true
   },
-	{
+  {
     "id": 2,
     "remarks": "lcx12901/v2ray-",
     "site": "https://github.com/lcx12901/v2ray-",
