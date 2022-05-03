@@ -687,7 +687,7 @@ class sub_convert:
                     protoparam = sub_convert.base64_decode(
                         param_dic['protoparam'])
                     remarks = sub_convert.base64_decode(param_dic['remarks'])
-                    group = sub_convert.base64_decode(param_dic['group'])
+                    #group = sub_convert.base64_decode(param_dic['group'])
 
                     yaml_url.setdefault(
                         'name', sub_convert.base64_decode(param_dic['remarks'])
