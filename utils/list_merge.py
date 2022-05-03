@@ -188,7 +188,7 @@ class sub_merge:
                 with open('./sub/sub_merge_yaml_rm.yml', 'r', encoding='utf-8') as f:
                     proxies = f.read()
                     proxies = proxies.split('\n')
-                    top_amount = len(proxies) - 1
+                    top_amount = len(proxies) - 2
                     f.close()
                 lines.insert(index + 1, f'合并节点总数: `{top_amount}`\n')
                 """
