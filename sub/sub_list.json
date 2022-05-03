@@ -23,8 +23,8 @@
 	{
     "id": 3,
     "remarks": "手动收集",
-    "site": "https://gitlab.com/",
-    "url": "https://gitlab.com/api/v4/projects/33820890/repository/files/Temp.yaml/raw?ref=main&private_token=glpat-G54_jEXz6TYwUZzyBezs",
+    "site": "https://github.com/666greatChina888/Code-Store",
+    "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/temp.yaml",
     "enabled": true
   },
   {
