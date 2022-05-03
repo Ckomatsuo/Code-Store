@@ -1,0 +1,125 @@
+name: Better_Collect#
+# 触发条件
+on:
+  ###push的时候触发
+  #push:
+  #  branches: master
+  #workflow_dispatch:
+  # 定时触发
+  #schedule:
+    # - cron: '*/5 * * * *'
+    # 表达式生成  https://crontab.guru/
+    # 此处是UTC时间 即北京时间 -8小时
+    #- cron: "30 */6 * * *"
+jobs:
+  Merge_ermaozi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post_Code
+        uses: actions/checkout@v2
+      - name: Setup_Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - name: Load_Cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Setup_TimeZone
+        run: sudo timedatectl set-timezone 'Asia/Shanghai'
+      - name: Set_Requirements
+        run: |
+          pip install -r ./requirements/ermaozi/requirements.txt
+      - name: Set_SSH_Private_Keys
+        env:
+          token_Private_Keys: ${{ secrets.token_Private_Keys }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$token_Private_Keys" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa
+      - name: Collect_ermaozi
+        env:
+          email: ${{ secrets.EMAIL }}
+          username: ${{ secrets.USERNAME }}
+        run: |
+          python ./utils/ermaozi_get_cfmem.py
+          git config --global user.name "$username"
+          git config --global user.email "$email"
+          git config core.ignorecase false
+          git add .
+          git commit --allow-empty -m "$(date '+%Y-%m-%d %H:%M:%S') Collect_ermaozi"
+          git push -f origin master
+      - name: Delete_More_workflows
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+  Merge_ronghuaxueleng:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: "Set up Python"
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - name: Set_Requirements
+        run: |
+          pip install -r ./requirements/ronghuaxueleng/requirements.txt
+      - name: Set_SSH_Private_Keys
+        env:
+          token_Private_Keys: ${{ secrets.token_Private_Keys }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$token_Private_Keys" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa
+      - name: Collect_ronghuaxueleng
+        env:
+          email: ${{ secrets.EMAIL }}
+          username: ${{ secrets.USERNAME }}
+        run: |
+          python3 ./utils/ronghuaxueleng_get_clash.py
+          git config --global user.name "$username"
+          git config --global user.email "$email"
+          git add .
+          git pull
+          git commit --allow-empty -m "Collect_ronghuaxueleng"
+          git push -f origin master
+      - name: Delete_More_workflows
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+  Merge_End:
+    needs: [Merge_ronghuaxueleng, Merge_ermaozi]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set_SSH_Private_Keys
+        env:
+          token_Private_Keys: ${{ secrets.token_Private_Keys }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$token_Private_Keys" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa
+      - name: Good_Luck
+        env:
+          END_STR: Merge All Nodes
+        run: |
+          echo $END_STR
+      - name: Delete_More_workflows
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 1

@@ -6,15 +6,29 @@
     "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/combine.yaml",
     "enabled": false
   },
-  {
+	{
     "id": 1,
-    "remarks": "yu-steven/openit",
-    "site": "https://github.com/yu-steven/openit",
-    "url": "https://raw.githubusercontent.com/yu-steven/openit/main/sub/nodes.yaml",
+    "remarks": "GreenFishStudio/GreenFish",
+    "site": "https://github.com/GreenFishStudio/GreenFish/",
+    "url": "https://raw.githubusercontent.com/GreenFishStudio/GreenFish/master/Subscription/Clash/GreenFishYYDS",
+    "enabled": true
+  },
+	{
+    "id": 2,
+    "remarks": "lcx12901/v2ray-",
+    "site": "https://github.com/lcx12901/v2ray-",
+    "url": "https://raw.githubusercontent.com/lcx12901/v2ray-/master/sspool.herokuapp.com/bihai.yaml|https://raw.githubusercontent.com/lcx12901/v2ray-/master/sspool.herokuapp.com/provider-other.yaml",
+    "enabled": true
+  },
+	{
+    "id": 3,
+    "remarks": "手动收集",
+    "site": "https://gitlab.com/",
+    "url": "https://gitlab.com/api/v4/projects/33820890/repository/files/Temp.yaml/raw?ref=main&private_token=glpat-G54_jEXz6TYwUZzyBezs",
     "enabled": true
   },
   {
-    "id": 2,
+    "id": 4,
     "remarks": "changfengoss",
     "site": "https://github.com/666greatChina888/Code-Store",
     "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/changfengoss.yaml",
