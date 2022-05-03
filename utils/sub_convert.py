@@ -710,9 +710,9 @@ class sub_convert:
                         'protocol-param',
                         sub_convert.base64_decode(param_dic['protoparam']),
                     )
-                    yaml_url.setdefault(
-                        'group', sub_convert.base64_decode(param_dic['group'])
-                    )
+                    #yaml_url.setdefault(
+                    #   'group', sub_convert.base64_decode(param_dic['group'])
+                    #)
 
                     url_list.append(yaml_url)
                 except Exception as err:
