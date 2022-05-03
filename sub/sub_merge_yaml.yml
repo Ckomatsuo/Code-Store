@@ -27,7 +27,7 @@ proxies:
 - {name: "[🇦🇺][SS][澳]", server: 185.167.116.253, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
 - {name: "[🇩🇪][SS][寻]", server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
 - {name: "[🇬🇧][SS][寻]", server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
-- {name: "[🇨🇭][SSR][寻]", server: 185.126.116.125, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, obfs: plain, protocol: origin, obfs-param: , protocol-param: , group: SSRProvider}
+- {name: "[🇨🇭][SSR][寻]", server: 185.126.116.125, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, obfs: plain, protocol: origin, obfs-param: , protocol-param: }
 - {name: "[🇵🇱][SS][寻]", server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
 - {name: "[🇵🇱][SS][寻]", server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
 - {name: "[🇵🇱][SS][寻]", server: 217.30.10.67, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
