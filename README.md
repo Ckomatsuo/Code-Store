@@ -31,14 +31,15 @@
 ## 节点信息
 
 ### 所有节点
-合并节点总数: `59`
+合并节点总数: `65`
 [节点链接](https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/sub_merge.txt)
 
 ### 格式化节点
-合并节点总数: `30`
+合并节点总数: `33`
 [节点链接](https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/sub_merge_yaml_rm.yml)
 
 ### 节点来源
+- [手动收集](https://github.com/666greatChina888/Code-Store), 节点数量: `59`
 - [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish/), 节点数量: `59`
 
 ## 仓库声明
