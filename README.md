@@ -39,7 +39,7 @@
 [节点链接](https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/sub_merge_yaml_rm.yml)
 
 ### 节点来源
-- [手动收集](https://github.com/666greatChina888/Code-Store), 节点数量: `59`
+- [手动收集](https://github.com/666greatChina888/Code-Store), 节点数量: `6`
 - [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish/), 节点数量: `59`
 
 ## 仓库声明
