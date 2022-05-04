@@ -1,6 +1,6 @@
 # **Code-Store**
 
-[![Merge_Nodes](https://github.com/666greatChina888/Code-Store/actions/workflows/Merge_Nodes.yaml/badge.svg)](https://github.com/666greatChina888/Code-Store/actions/workflows/Merge_Nodes.yaml) | [![Better_Collect](https://github.com/666greatChina888/Code-Store/actions/workflows/Better_Collect.yaml/badge.svg?branch=master)](https://github.com/666greatChina888/Code-Store/actions/workflows/Better_Collect.yaml) | [![weekly_clear](https://github.com/666greatChina888/Code-Store/actions/workflows/weekly_clear.yaml/badge.svg)](https://github.com/666greatChina888/Code-Store/actions/workflows/weekly_clear.yaml)
+[![Merge_Nodes](https://github.com/666greatChina888/Code-Store/actions/workflows/Merge_Nodes.yaml/badge.svg)](https://github.com/666greatChina888/Code-Store/actions/workflows/Merge_Nodes.yaml) | [![weekly_clear](https://github.com/666greatChina888/Code-Store/actions/workflows/weekly_clear.yaml/badge.svg)](https://github.com/666greatChina888/Code-Store/actions/workflows/weekly_clear.yaml)
 
 [使用方法](https://github.com/666greatChina888/Code-Store#使用方法) | [节点信息](https://github.com/666greatChina888/Code-Store#节点信息) | [仓库声明](https://github.com/666greatChina888/Code-Store#仓库声明)
 
