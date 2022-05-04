@@ -22,6 +22,13 @@
   },
   {
     "id": 3,
+    "remarks": "ermaozi/get_subscribe",
+    "site": "https://github.com/ermaozi/get_subscribe",
+    "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+    "enabled": true
+  },
+  {
+    "id": 4,
     "remarks": "手动收集",
     "site": "https://github.com/666greatChina888/Code-Store",
     "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/clash_temp.yaml",
