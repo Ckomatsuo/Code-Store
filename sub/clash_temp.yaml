@@ -1,34 +1,8 @@
 proxies:
-  - {name: "[Temp]", server: 5.183.179.137, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: "[Temp]", server: 5.183.179.140, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: "[Temp]", server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: "[Temp]", server: 5.183.179.146, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: "[Temp]", server: 5.183.179.146, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: "[Temp]", server: 5.183.179.146, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: "[Temp]", server: 5.183.179.146, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: "[Temp]", server: 5.183.179.167, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: "[Temp]", server: 5.183.179.167, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: "[Temp]", server: 5.183.179.167, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: "[Temp]", server: 5.183.179.167, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: "[Temp]", server: 5.183.179.167, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: "[Temp]", server: 5.183.179.167, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: "[Temp]", server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "[Temp]", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "[Temp]", server: 103.98.73.12, port: 5005, type: vmess, uuid: ecf9bfdf-5fc5-4040-eb9f-eaec282c478b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ythe54}, udp: true}
-  - {name: "[Temp]", server: 140.238.231.9, port: 443, type: trojan, password: O3hQcnNKAE, skip-cert-verify: true, udp: true}
-  - {name: "[Temp]", server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: "[Temp]", server: 185.126.116.117, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: "[Temp]", server: 185.126.116.117, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: "[Temp]", server: 185.126.116.117, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: "[Temp]", server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "[Temp]", server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "[Temp]", server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "[Temp]", server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "[Temp]", server: eif7aet4.nodeinfo.icu, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[Temp]", server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[Temp]", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[Temp]", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[Temp]", server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
-  - {name: "[Temp]", server: lluucc3.herokuapp.com, port: 443, type: vmess, uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f495ba1f, headers: {Host: lluucc3.herokuapp.com}}, udp: true}
-  - {name: "[Temp]", server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
-  - {name: "[Temp]", server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[🇹🇼][VM][台]", server: 103.98.73.12, port: 5005, type: vmess, uuid: ecf9bfdf-5fc5-4040-eb9f-eaec282c478b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ythe54, headers: {Host: 103.98.73.12}}, udp: true}
+  - {name: "[🇯🇵][SS][日]", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "[🇨🇳][SSR][中]", server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 57797:4MO46X, obfs-param: 78a7757797.www.gov.hk, udp: true}
+  - {name: "[🇬🇧][SS][寻] 3", server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: "[🇨🇦][SS][加]", server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "[🇨🇦][SS][加] 2", server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+
