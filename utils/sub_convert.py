@@ -349,10 +349,10 @@ class sub_convert:
                 ping_result_y = ping(server, port).youtube_ping()
                 ping_result_w = ping(server, port).whoer_ping()
                 if (
-                    ping_result[0] >= 0.03
-                    or ping_result_g[0] >= 0.03
-                    or ping_result_y[0] >= 0.03
-                    or ping_result_w[0] >= 0.03
+                    ping_result[0] >= 0.05
+                    or ping_result_g[0] >= 0.05
+                    or ping_result_y[0] >= 0.05
+                    or ping_result_w[0] >= 0.05
                 ):
                     proxies_list.remove(proxy)
                 elif (

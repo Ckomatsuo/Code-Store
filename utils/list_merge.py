@@ -15,8 +15,7 @@ from urllib import request
 Eterniy = './Eternity'
 readme = './README.md'
 input_file = './sub/sub_merge_yaml.yml'
-output_file = './sub/sub_merge_yaml.yml'
-#output_file = './sub/sub_merge_yaml_rm.yml'
+output_file = './sub/sub_merge_yaml_rm.yml'
 
 sub_list_json = './sub/sub_list.json'
 sub_merge_path = './sub/'
@@ -111,7 +110,7 @@ class sub_merge:
                     f.write(file_list[0])
                     n=n-1
                     del file_list[0]
-            print(l)
+            print(l-1)
 
     def read_list(json_file, remote=False):  # 将 sub_list.json Url 内容读取为列表
         with open(json_file, 'r', encoding='utf-8') as f:
@@ -186,7 +185,7 @@ class sub_merge:
                 # 清除旧内容
                 lines.pop(index + 1)  # 删除节点数量
 
-                with open('./sub/sub_merge_yaml.yml', 'r', encoding='utf-8') as f:
+                with open('./sub/sub_merge_yaml_rm.yml', 'r', encoding='utf-8') as f:
                     proxies = f.read()
                     proxies = proxies.split('\n')
                     top_amount = len(proxies) - 1
