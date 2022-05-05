@@ -1,3 +1,5 @@
 proxies:
 - {name: "[🇦🇪][SS][寻]", server: 217.138.193.10, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
 - {name: "[🇦🇪][SS][寻]", server: 217.138.193.10, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
+- {name: "[🇦🇪][SS][寻]", server: 217.138.193.10, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
+- {name: "[🇦🇪][SS][寻]", server: 217.138.193.10, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
