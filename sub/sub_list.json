@@ -4,7 +4,7 @@
     "remarks": "test",
     "site": "https://github.com/666greatChina888/Code-Store",
     "url": "https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/combine.yaml",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 1,
@@ -25,6 +25,6 @@
     "remarks": "666greatChina888/Code-Store",
     "site": "https://github.com/666greatChina888/Code-Store",
     "url": "https://proxypool.jehu.cf/clash/proxies",
-    "enabled": false
+    "enabled": true
   }
 ]
