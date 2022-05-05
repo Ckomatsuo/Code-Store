@@ -68,7 +68,7 @@ class sub_merge:
             content_raw,
             'content',
             'YAML',
-            {'dup_rm_enabled': True, 'format_name_enabled': True, 'speedtest': True},
+            {'dup_rm_enabled': False, 'format_name_enabled': True, 'speedtest': True},
         )
         content_url = sub_convert.yaml_decode(content_yaml)
         content = content_raw
