@@ -3,3 +3,5 @@ proxies:
 - {"name":"🇦🇪AE_02 | 8.48Mb","server":"217.138.193.10","type":"ss","country":"🇦🇪AE","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
 - {"name":"🇦🇪AE_01 | 7.86Mb","server":"217.138.193.10","type":"ss","country":"🇦🇪AE","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
 - {"name":"🇦🇪AE_02 | 8.48Mb","server":"217.138.193.10","type":"ss","country":"🇦🇪AE","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+- {"name":"🇦🇪AE_01 | 7.86Mb","server":"217.138.193.10","type":"ss","country":"🇦🇪AE","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+- {"name":"🇦🇪AE_02 | 8.48Mb","server":"217.138.193.10","type":"ss","country":"🇦🇪AE","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
