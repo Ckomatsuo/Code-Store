@@ -29,3 +29,18 @@ proxies:
       path: /wivhvwe
       headers:
         host: top.njiang.tk
+  - name: 🇺🇸_US_美国_18
+    server: top.njiang.cf
+    port: 443
+    type: vmess
+    uuid: b2d062be-1912-4523-96c9-4f0f101c931c
+    alterId: 0
+    cipher: auto
+    country: 🇺🇸_US_美国_18
+    skip-cert-verify: true
+    tls: true
+    network: ws
+    ws-opts:
+      path: /wivhvwe
+      headers:
+        host: top.njiang.tk

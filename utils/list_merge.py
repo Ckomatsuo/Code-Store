@@ -185,7 +185,7 @@ class sub_merge:
                 # 清除旧内容
                 lines.pop(index + 1)  # 删除节点数量
 
-                with open('./sub/sub_merge_yaml_rm.yml', 'r', encoding='utf-8') as f:
+                with open('./sub/sub_merge_yaml.yml', 'r', encoding='utf-8') as f:
                     proxies = f.read()
                     proxies = proxies.split('\n')
                     top_amount = len(proxies) - 1
