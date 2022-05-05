@@ -15,7 +15,8 @@ from urllib import request
 Eterniy = './Eternity'
 readme = './README.md'
 input_file = './sub/sub_merge_yaml.yml'
-output_file = './sub/sub_merge_yaml_rm.yml'
+output_file = './sub/sub_merge_yaml.yml'
+#output_file = './sub/sub_merge_yaml_rm.yml'
 
 sub_list_json = './sub/sub_list.json'
 sub_merge_path = './sub/'
