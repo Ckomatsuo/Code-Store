@@ -185,12 +185,19 @@ class sub_merge:
                 # 清除旧内容
                 lines.pop(index + 1)  # 删除节点数量
 
+                temp1_list = []
                 with open('./sub/sub_merge_yaml_rm.yml', 'r', encoding='utf-8') as f:
-                    proxies = f.read()
-                    proxies = proxies.split('\n')
-                    top_amount = len(proxies) - 1
+                    while True:
+                        url=f.readline()
+                        if url:
+                            temp1_list.append(url)
+                        else:
+                            break
+                    #last_out_file=list(set(temp1_list)) #set()函数可以自动过滤掉重复元素   但是不保证原顺序
+                    last_out_file=list(dict.fromkeys(temp1_list)) #python3.6之后 dict()函数可以自动过滤掉重复元素，保证原顺序
+                    l=len(last_out_file)-1
                     f.close()
-                lines.insert(index + 1, f'合并节点总数: `{top_amount}`\n')
+                lines.insert(index + 1, f'合并节点总数: `{l}`\n')
                 """
                 with open('./sub/sub_merge_yaml.yml', 'r', encoding='utf-8') as f:
                     proxies = f.read()
