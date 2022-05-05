@@ -1,46 +1,9 @@
 proxies:
-  - name: 🇺🇸_US_美国_18
-    server: top.njiang.tk
-    port: 443
-    type: vmess
-    uuid: b2d062be-1912-4523-96c9-4f0f101c931b
-    alterId: 0
-    cipher: auto
-    country: 🇺🇸_US_美国_18
-    skip-cert-verify: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wivhvws
-      headers:
-        host: top.njiang.tk
-  - name: 🇺🇸_US_美国_18
-    server: top.njiang.tk
-    port: 443
-    type: vmess
-    uuid: b2d062be-1912-4523-96c9-4f0f101c931c
-    alterId: 0
-    cipher: auto
-    country: 🇺🇸_US_美国_18
-    skip-cert-verify: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wivhvwe
-      headers:
-        host: top.njiang.tk
-  - name: 🇺🇸_US_美国_18
-    server: top.njiang.cf
-    port: 443
-    type: vmess
-    uuid: b2d062be-1912-4523-96c9-4f0f101c931c
-    alterId: 0
-    cipher: auto
-    country: 🇺🇸_US_美国_18
-    skip-cert-verify: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wivhvwe
-      headers:
-        host: top.njiang.tk
+- {"name":"🇦🇪AE_01 | 7.86Mb","server":"217.138.193.10","type":"ss","country":"🇦🇪AE","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+- {"name":"🇦🇪AE_02 | 8.48Mb","server":"217.138.193.10","type":"ss","country":"🇦🇪AE","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+- {"name":"🇦🇺AU_03 |28.39Mb","server":"185.167.116.252","type":"ss","country":"🇦🇺AU","port":9015,"password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb"}
+- {"name":"🇦🇺AU_04 |25.99Mb","server":"185.167.116.38","type":"ss","country":"🇦🇺AU","port":9056,"password":"rNBfNuuANFCAk7KB","cipher":"aes-256-cfb"}
+- {"name":"🇦🇺AU_05 |21.00Mb","server":"185.167.116.253","type":"ss","country":"🇦🇺AU","port":9019,"password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb"}
+- {"name":"🇦🇺AU_06 |29.14Mb","server":"185.167.116.252","type":"ss","country":"🇦🇺AU","port":9041,"password":"U6qnYRhfyDmn8sgn","cipher":"aes-256-cfb"}
+- {"name":"🇦🇺AU_15 |10.77Mb","server":"129.154.54.75","type":"vmess","country":"🇦🇺AU","port":33004,"uuid":"4f14695c-31b9-45bf-ca34-1d82170fc100","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","servername":"129.154.54.75","ws-headers":{"HOST":"129.154.54.75"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇨🇦CA-🇨🇦CA_175 |27.00Mb","server":"331tw.fans8.xyz","type":"vmess","country":"🇨🇦CA","port":443,"uuid":"efaeb7b2-bd81-37d7-b3af-5c633570f423","alterId":2,"cipher":"auto","network":"ws","ws-path":"/ray","servername":"331tw.fans8.xyz","ws-headers":{"HOST":"331tw.fans8.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
