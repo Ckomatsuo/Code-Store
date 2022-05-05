@@ -88,29 +88,29 @@ class sub_merge:
             content_write(write_list[index], content_type[index])
         print('Done!\n')
 
-    #def out_file(): #文件去重
-    #    #file_2 = open_file()   #打开需要去重的文件
-    #    with open(input_file, 'r', encoding='utf-8') as f:
-    #        while True:
-    #            url=f.readline()
-    #            if url:
-    #                file_list.append(url)
-    #            else:
-    #                break
-    #        #last_out_file=list(set(file_list)) #set()函数可以自动过滤掉重复元素   但是不保证原顺序
-    #        last_out_file=list(dict.fromkeys(file_list)) #python3.6之后 dict()函数可以自动过滤掉重复元素，保证原顺序
-    #        n=len(last_out_file)
-    #        l=len(last_out_file)
-    #        with open(output_file,'w',encoding='utf-8') as f:   #去重后文件写入文件里
-    #            f.seek(0)
-    #            f.truncate()   #清空文件
-    #            #print(file_list[0])
-    #            while n:
-    #                #f.write(file_list[0]+"\n")
-    #                f.write(file_list[0])
-    #                n=n-1
-    #                del file_list[0]
-    #        print(l)
+    def out_file(): #文件去重
+        #file_2 = open_file()   #打开需要去重的文件
+        with open(input_file, 'r', encoding='utf-8') as f:
+            while True:
+                url=f.readline()
+                if url:
+                    file_list.append(url)
+                else:
+                    break
+            #last_out_file=list(set(file_list)) #set()函数可以自动过滤掉重复元素   但是不保证原顺序
+            last_out_file=list(dict.fromkeys(file_list)) #python3.6之后 dict()函数可以自动过滤掉重复元素，保证原顺序
+            n=len(last_out_file)
+            l=len(last_out_file)
+            with open(output_file,'w',encoding='utf-8') as f:   #去重后文件写入文件里
+                f.seek(0)
+                f.truncate()   #清空文件
+                #print(file_list[0])
+                while n:
+                    #f.write(file_list[0]+"\n")
+                    f.write(file_list[0])
+                    n=n-1
+                    del file_list[0]
+            print(l)
 
     def read_list(json_file, remote=False):  # 将 sub_list.json Url 内容读取为列表
         with open(json_file, 'r', encoding='utf-8') as f:
@@ -234,5 +234,5 @@ if __name__ == '__main__':
     sub_list = sub_merge.read_list(sub_list_json)
     sub_list_remote = sub_merge.read_list(sub_list_json, True)
     sub_merge.sub_merge(sub_list_remote)
-    #sub_merge.out_file()
+    sub_merge.out_file()
     sub_merge.readme_update(readme, sub_list)
