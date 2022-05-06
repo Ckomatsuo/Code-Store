@@ -31,7 +31,7 @@
     "id": 4,
     "remarks": "42.194.196.226/40左右",
     "site": "http://42.194.196.226/",
-    "url": "http://42.194.196.226/clash/proxies?speed=5",
+    "url": "http://42.194.196.226/clash/proxies?speed=10,50",
     "enabled": true
   }
 ]
