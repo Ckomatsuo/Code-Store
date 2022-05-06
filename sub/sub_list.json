@@ -24,7 +24,14 @@
     "id": 3,
     "remarks": "666greatChina888/Code-Store",
     "site": "https://github.com/666greatChina888/Code-Store",
-    "url": "https://proxypool.jehu.cf/clash/proxies",
+    "url": "https://proxypool.jehu.cf/clash/proxies?speed=50|https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fv1.mk%2Fl3rJcTP&emoji=0&sort=0&aead=0&inline=1",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "remarks": "42.194.196.226/40左右",
+    "site": "http://42.194.196.226/",
+    "url": "http://42.194.196.226/clash/proxies?speed=5",
     "enabled": true
   }
 ]
