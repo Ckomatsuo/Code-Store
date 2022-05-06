@@ -31,16 +31,16 @@
 ## 节点信息
 
 ### 所有节点
-合并节点总数: `107`
+合并节点总数: `205`
 [节点链接](https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/sub_merge.txt)
 
 ### 格式化节点
-合并节点总数: `53`
+合并节点总数: `83`
 [节点链接](https://raw.githubusercontent.com/666greatChina888/Code-Store/master/sub/sub_merge_yaml_rm.yml)
 
 ### 节点来源
-- [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish/), 节点数量: `42`
-- [666greatChina888/Code-Store](https://github.com/666greatChina888/Code-Store), 节点数量: `44`
+- [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish/), 节点数量: `76`
+- [666greatChina888/Code-Store](https://github.com/666greatChina888/Code-Store), 节点数量: `108`
 - [42.194.196.226/40左右](http://42.194.196.226/), 节点数量: `21`
 
 ## 仓库声明

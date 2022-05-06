@@ -1,60 +1,129 @@
 proxies:
-- {name: "[🇨🇳][VM][中]", server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: sxqxj.cn}}
-- {name: "[🇬🇧][VM][寻]", server: 45.61.164.43, port: 4443, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /v2ray, tls: true, ws-headers: {Host: t.me/vpnhat}}
-- {name: "[🇯🇵][SS][日]", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-- {name: "[🇦🇶-R][VM][转]", server: jp-direct-cdn.node001.xyz, port: 2082, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /nbsd, tls: false, ws-headers: {Host: jp-direct-cdn.node001.xyz}}
-- {name: "[🇦🇶-R][VM][转]", server: 172.67.184.192, port: 443, type: vmess, uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /v2ray, tls: true, ws-headers: {Host: jp10.ssttkk.com}}
-- {name: "[🇦🇶-R][VM][转]", server: kr-direct-cdn.node001.xyz, port: 2082, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /nbsd, tls: false, ws-headers: {Host: kr-direct-cdn.node001.xyz}}
-- {name: "[🇹🇼][VM][台]", server: tw99-direct.myn1des.com, port: 2083, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: tw99-direct.myn1des.com}}
-- {name: "[🇺🇸][VM][美]", server: 45.11.92.21, port: 4440, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /v2ray, tls: true, ws-headers: {Host: t.me/vpnhat}}
-- {name: "[🇺🇸][VM][美]", server: 216.38.168.9, port: 4442, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /v2ray, tls: true, ws-headers: {Host: t.me/vpnhat}}
-- {name: "[🇦🇺][TR][澳]", server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true}
-- {name: "[🇨🇦][SS][加]", server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-- {name: "[🇩🇪][TR][寻]", server: de2-1.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇪🇪][TR][寻]", server: ee1-3.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇬🇧][TR][寻]", server: uk1-4.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇭🇰][TR][港]", server: hk1-7.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇭🇰][TR][港]", server: hk1-6.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇯🇵][TR][日]", server: os2-4.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇯🇵][TR][日]", server: ty1-1.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇺🇸][TR][美]", server: us2-3.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇺🇸][TR][美]", server: us3-8.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇺🇸][TR][美]", server: us3-6.nigirocloud.com, port: 443, type: trojan, password: 5MRJrN8bvsBpyhTQy9, skip-cert-verify: true}
-- {name: "[🇺🇸][VM][美]", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: c23s801.jamjams.net}}
-- {name: "[🇺🇸][VM][美]", server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 150.230.43.65}}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.155, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.155, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.162, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.206, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.245, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.245, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.64, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.64, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇭🇰][VM][港]", server: hk-ii.bpldply.xyz, port: 80, type: vmess, uuid: 750d0abb-06d8-49c1-8a75-cecfb84d0e98, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /wroot, tls: false, ws-headers: {Host: pull.free.video.10010.com}}
+- {name: "[🇮🇳][TR][寻]", server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true}
+- {name: "[🇦🇶-N][TR][寻]", server: sg-do213.98848.xyz, port: 443, type: trojan, password: b23ecb07-1cd3-4490-b4eb-4d32cd0b9249, skip-cert-verify: true}
+- {name: "[🇯🇵][TR][日]", server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, skip-cert-verify: true}
+- {name: "[🇺🇸][SS][美]", server: 167.88.61.240, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇺🇸][SS][美]", server: 167.88.63.44, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: "[🇺🇸][SS][美]", server: 167.88.63.5, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: "[🇺🇸][SS][美]", server: 38.68.134.62, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇺🇸][SS][美]", server: 38.75.136.135, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇺🇸][SS][美]", server: 38.75.136.224, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: "[🇺🇸][SS][美]", server: 38.75.136.224, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: "[🇺🇸][SS][美]", server: 38.75.137.11, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇺🇸][SS][美]", server: 38.75.137.88, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: "[🇺🇸][SS][美]", server: 38.91.100.208, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: "[🇺🇸][SS][美]", server: 38.91.101.14, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+- {name: "[🇺🇸][SS][美]", server: 38.91.101.14, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+- {name: "[🇺🇸][SS][美]", server: 38.91.101.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: "[🇺🇸][SS][美]", server: 38.91.101.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: "[🇦🇺][TR][澳]", server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.16, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.168, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.245, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.64, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: "[🇨🇦][SS][加]", server: 134.195.196.64, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+- {name: "[🇺🇸][SS][美]", server: 167.88.63.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+- {name: "[🇺🇸][SS][美]", server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+- {name: "[🇺🇸][SS][美]", server: 38.75.136.224, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+- {name: "[🇺🇸][SS][美]", server: 38.75.137.88, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+- {name: "[🇺🇸][SS][美]", server: 38.68.134.62, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: "[🇺🇸][SS][美]", server: 38.75.137.88, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+- {name: "[🇺🇸][SS][美]", server: 38.75.136.224, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: "[🇺🇸][SS][美]", server: 38.75.136.135, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: "[🇺🇸][SS][美]", server: 38.68.134.62, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: "[🇺🇸][SS][美]", server: 38.68.134.62, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: "[🇺🇸][SS][美]", server: 167.88.63.44, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: "[🇺🇸][SS][美]", server: 167.88.63.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+- {name: "[🇺🇸][SS][美]", server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+- {name: "[🇺🇸][SS][美]", server: 38.75.136.224, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 - {name: "[🇺🇸][VM][美]", server: aa.kayalo.com, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /wis, tls: false, ws-headers: {Host: aa.kayalo.com}}
-- {name: "[🇺🇸][TR][美]", server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true}
+- {name: "[🇺🇸][VM][美]", server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.168.13.8}}
 - {name: "[🇺🇸][TR][美]", server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true}
+- {name: "[🇺🇸][TR][美]", server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+- {name: "[🇺🇸][TR][美]", server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
+- {name: "[🇺🇸][TR][美]", server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true}
+- {name: "[🇺🇸][VM][美]", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: c23s801.jamjams.net}}
 - {name: "[🇺🇸][VM][美]", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: c23s3.jamjams.net}}
-- {name: "[🇦🇶-R][VM][转]", server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 0a4de18d-aba9-4392-9fd8-9f52bdaf1db0, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: fr1t.moonfree.top}}
-- {name: "[🇦🇶-R][VM][转]", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v1.ssrsub.com}}
-- {name: "[🇦🇶-R][VM][转]", server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.ssrsub.com}}
-- {name: "[🇺🇸][VM][美]", server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /AY920UMR, tls: true, ws-headers: {Host: us1.lolvps.xyz}}
-- {name: "[🇦🇶-R][VM][转]", server: v3.v2.gay, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.v2.gay}}
-- {name: "[🇨🇳][VM][中]", server: in03.dns2333.xyz, port: 62087, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /nbsd, tls: true, ws-headers: {Host: in03.dns2333.xyz}}
+- {name: "[🇺🇸][VM][美]", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /6129CFHR, tls: false, ws-headers: {Host: ru1.lolvps.xyz}}
+- {name: "[🇺🇸][VM][美]", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /6129CFHR, tls: false, ws-headers: {Host: ru1.lolvps.xyz}}
+- {name: "[🇺🇸][VM][美]", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /6129CFHR, tls: false, ws-headers: {Host: ru1.lolvps.xyz}}
+- {name: "[🇺🇸][VM][美]", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /6129CFHR, tls: false, ws-headers: {Host: ru1.lolvps.xyz}}
+- {name: "[🇰🇷][VM][韩]", server: v2-4.godlight.xyz, port: 50497, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /g1641hvx, tls: true, ws-headers: {Host: v2-4.godlight.xyz}}
+- {name: "[🇦🇶-R][VM][转]", server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: node.774.gs}}
+- {name: "[🇦🇶-R][VM][转]", server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /nmsl, tls: true, ws-headers: {Host: 1.ezydfdd.com}}
+- {name: "[🇦🇶-R][VM][转]", server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /qwe, tls: true, ws-headers: {Host: 8.ezydfdd.com}}
 - {name: "[🇦🇶-R][VM][转]", server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /go, tls: true, ws-headers: {Host: us02.gogogoo.cyou}}
-- {name: "[🇷🇺][VM][寻]", server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /6129CFHR, tls: true, ws-headers: {Host: ru1.lolvps.xyz}}
-- {name: "[🇰🇷][VM][韩]", server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 32, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /g1641hvx, tls: false, ws-headers: {Host: v2-4.godlight.xyz}}
+- {name: "[🇦🇶-R][VM][转]", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v5.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v1.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v2.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: app.ssfree.ru, port: 443, type: vmess, uuid: 6c07cb88-cc8c-11ec-b987-000017022008, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
+- {name: "[🇺🇸][VM][美]", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, tls: true, ws-headers: {Host: us3.31vpn.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v3.v2.gay, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.v2.gay}}
+- {name: "[🇦🇶-R][VM][转]", server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /qwe, tls: true, ws-headers: {Host: 8.ezydfdd.com}}
+- {name: "[🇦🇶-R][VM][转]", server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /go, tls: true, ws-headers: {Host: us02.gogogoo.cyou}}
+- {name: "[🇦🇶-R][VM][转]", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v5.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v1.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v2.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: app.ssfree.ru, port: 443, type: vmess, uuid: 6c07cb88-cc8c-11ec-b987-000017022008, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
+- {name: "[🇺🇸][VM][美]", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, tls: true, ws-headers: {Host: us3.31vpn.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v3.v2.gay, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.v2.gay}}
 - {name: "[🇦🇶-R][VM][转]", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v5.ssrsub.com}}
 - {name: "[🇦🇶-R][VM][转]", server: app.ssfree.ru, port: 443, type: vmess, uuid: d700be1e-cc27-11ec-9017-000017022008, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
 - {name: "[🇦🇶-R][VM][转]", server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /go, tls: true, ws-headers: {Host: us02.gogogoo.cyou}}
+- {name: "[🇺🇸][VM][美]", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, tls: true, ws-headers: {Host: us3.31vpn.com}}
 - {name: "[🇦🇶-R][VM][转]", server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /happy, tls: true, ws-headers: {Host: v2ray.788644.xyz}}
 - {name: "[🇰🇷][VM][韩]", server: v2-4.godlight.xyz, port: 50497, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /g1641hvx, tls: true, ws-headers: {Host: v2-4.godlight.xyz}}
 - {name: "[🇦🇶-R][VM][转]", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v1.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v2.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v1.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v2.ssrsub.com}}
+- {name: "[🇺🇸][VM][美]", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, tls: true, ws-headers: {Host: us3.31vpn.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /happy, tls: true, ws-headers: {Host: v2ray.788644.xyz}}
+- {name: "[🇺🇸][VM][美]", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, tls: true, ws-headers: {Host: us3.31vpn.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v2.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /qwe, tls: true, ws-headers: {Host: 8.ezydfdd.com}}
+- {name: "[🇦🇶-R][VM][转]", server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /qwe, tls: true, ws-headers: {Host: 8.ezydfdd.com}}
+- {name: "[🇦🇶-R][VM][转]", server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /go, tls: true, ws-headers: {Host: us02.gogogoo.cyou}}
+- {name: "[🇦🇶-R][VM][转]", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v5.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v1.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v2.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: app.ssfree.ru, port: 443, type: vmess, uuid: 6c07cb88-cc8c-11ec-b987-000017022008, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
+- {name: "[🇺🇸][VM][美]", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, tls: true, ws-headers: {Host: us3.31vpn.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v3.v2.gay, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v3.v2.gay}}
 - {name: "[🇦🇶-R][VM][转]", server: app.ssfree.ru, port: 443, type: vmess, uuid: 417284e0-cbc3-11ec-9819-000017022008, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
-- {name: "[🇦🇶-R][VM][转]", server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: node.zxcairport.xyz}}
-- {name: "[🇦🇶-R][VM][转]", server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: node.zxcairport.xyz}}
+- {name: "[🇦🇶-R][VM][转]", server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: node.774.gs}}
+- {name: "[🇦🇶-R][VM][转]", server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /happy, tls: true, ws-headers: {Host: v2ray.788644.xyz}}
+- {name: "[🇺🇸][VM][美]", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, tls: true, ws-headers: {Host: us3.31vpn.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v2.ssrsub.com}}
+- {name: "[🇦🇶-R][VM][转]", server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /qwe, tls: true, ws-headers: {Host: 8.ezydfdd.com}}
+- {name: "[🇦🇶-R][VM][转]", server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ssrsub, tls: true, ws-headers: {Host: v4.ssrsub.com}}
+- {name: "[🇭🇰][VM][港]", server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hk5.fdns.cloudlink123.com}}
 - {name: "[🇦🇶-R][VM][转]", server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: node.zxcairport.xyz}}
 - {name: "[🇦🇶-R][VM][转]", server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: node.zxcairport.xyz}}
 - {name: "[🇦🇶-R][VM][转]", server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: node.zxcairport.xyz}}
 - {name: "[🇨🇳][VM][中]", server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: sxqxj.cn}}
 - {name: "[🇬🇧][SSR][寻]", server: 152.89.210.105, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, obfs: plain, protocol: origin, obfs-param: , protocol-param: }
-- {name: "[🇭🇰][TR][港]", server: ssl.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true}
-- {name: "[🇯🇵][SS][日]", server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-- {name: "[🇷🇴][TR][寻]", server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true}
-- {name: "[🇺🇸][SS][美]", server: 167.88.61.70, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-- {name: "[🇺🇸][SS][美]", server: 167.88.61.70, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-- {name: "[🇺🇸][SS][美]", server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
+- {name: "[🇺🇸][TR][美]", server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true}
+- {name: "[🇯🇵][TR][日]", server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true}
+- {name: "[🇳🇱][SS][寻]", server: 213.183.51.172, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
+- {name: "[🇺🇸][TR][美]", server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true}
+- {name: "[🇺🇸][SS][美]", server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 - {name: "[🇺🇸][TR][美]", server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true}
+- {name: "[🇸🇬][TR][新]", server: sg1.qingyun123.xyz, port: 10001, type: trojan, password: 1362a776-8b97-4707-91b9-4ae21d910462, skip-cert-verify: true}
 - {name: "[🇸🇨][TR][寻]", server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true}
 - {name: "[🇸🇨][TR][寻]", server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true}
